@@ -7,11 +7,11 @@
 
 
 // проверка
-console.log(task3(5));
-console.log(task3('5'));
-console.log(task3(7));
-console.log(task3(true));
-console.log(task3({}));
+task3(5);
+task3('5');
+task3(7);
+task3(true);
+task3({});
 // Должно вывести
 // 25
 // Вы ввели строку. пожалуйста введите число
