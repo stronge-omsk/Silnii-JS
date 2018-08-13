@@ -1,4 +1,4 @@
-function test1 (num1, num2) {
+    function test1 (num1, num2) {
     var result = num1 * num2;
     return result;
 }
@@ -35,7 +35,7 @@ console.log( test2(2, 5) ); // Сначало выполнит test2(2, 5), ко
 // В итоге в консоле будет сначало 10, а потом undefined (т.к. console.log'a в итоге два)
 
 var d = 8 * test2(3, 5); // Сначало в консоль выведется 15, потом в переменную d запишется результат умножения 8 и undefined, т.е. NaN (Not a Number) (Не Число)
-console.log(d); // Выведет в консоль NaN
+console.log(d); // Выведет в консоль NaN    
 
 console.log();
 function test21(val) {
