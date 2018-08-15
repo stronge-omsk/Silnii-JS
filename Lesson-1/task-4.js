@@ -3,7 +3,7 @@
 
 // здесь твой код
 function task4 (to) {
-    for (var i=1; i < 10; i++) {
+    for (var i=1; i < to; i++) {
         if (i % 2===1){
               console.log(i+"нечётное");
         } else {
@@ -16,7 +16,7 @@ function task4 (to) {
 
 
 // проверка
-task4(10);
+task4(999);
 // должно вывести
 // 1 нечетное
 // 2
