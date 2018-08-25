@@ -18,6 +18,8 @@ function task5 (to) {
           else if (i % 5 === 0) {
               console.log (i+' кратно 5');
           }
+     
+          
           
     }
 }
