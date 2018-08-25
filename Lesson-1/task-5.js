@@ -7,14 +7,16 @@
 // здесь твой код
 function task5 (to) {
     for (var i=1; i<=to; i++) {
-        if (i % 3 === 0) {
-            console.log (i("кратно 3"));
+        
+         if (i % 3 === 0 && i % 5 === 0) {
+            console.log (i + " кратно 3 и 5");
+            }      
+        
+       else if (i % 3 === 0) {
+            console.log (i+' кратно 3');
           }
-          if (i % 5 === 0) {
-              console.log (i("кратно 5"));
-          }
-          if (i % 3 && i % 5 === 0) {
-              console.log (i("кратно 3 и 5"));
+          else if (i % 5 === 0) {
+              console.log (i+' кратно 5');
           }
           
     }
